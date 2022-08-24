@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="index.js" defer></script>
+    <style src= "index.css"></style>
+</head>
+<body style="background-color: red; margin:0 
+;
+">
+    <div class="container" style="position: relative; display: flex; 
+    align-items: center; justify-items: center; flex-direction:column;">
+    <h1>check your palindrome string here</h1>
+    <ul class = "steps">
+        <li>type in the string you want to search</li>
+        <li> click submit </li>
+        <li>watch out for your result beneath</li>
+    </ul>
+        <div class="show" style="position: absolute;  left:30%; 
+        border:black 3px solid;
+        top: 200px; display: flex; align-items: center;
+        justify-items: center; flex-direction: column; margin: 10px; 
+        gap: 10px; box-shadow: 5px 10px 8px yellow  ;" >
+            <label for="input" > Enter your search </label>
+            <input id="input" type="search" size="30" style="color: blue; border-radius: 10px; background-color: alqua ;">
+
+            <label for="submit"></label>
+            <input id="submit" type="submit">
+
+            <div id="result"> </div>
+        </div>
+        
+    </div>
+
+</body>
+</html>
